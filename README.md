@@ -50,3 +50,4 @@ Based on the context the LLM answers.
 
 # Architecture
 ![image alt](https://github.com/pranaymaheshwari/RAG-Based-Study-Assistant/blob/4340bb78de5508d65a770358c3223dde74820bf4/Screenshot%202026-04-15%20085903.png)
+![image alt](https://github.com/pranaymaheshwari/RAG-Based-Study-Assistant/blob/cf6aa8793f4a786a5e634824396eedba4ee50911/Screenshot%202026-04-15%20085929.png)

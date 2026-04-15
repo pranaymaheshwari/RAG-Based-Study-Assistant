@@ -6,9 +6,29 @@ By leveraging Retrieval-Augmented Generation (RAG), CourseMate AI combines docum
 # Development Plan
 Now to develop this kind of system we are going to follow some steps.
 
-#### Step 1: User uploads study material
+#### Step 1 - User uploads study material
 Students upload learning resources such as:
 - PDFs
 - Lecture notes
 - Textbooks
 - Research papers
+
+#### Step 2 - Document Loading
+The system loads documents using document loaders.
+Goal: Convert raw files into document objects that can be processed.
+You may clean the document as well.
+
+#### Step 3 - Text Splitting (Chunking)
+Documents are usually too large for LLM context windows. So we split them into smaller chunks.
+Chunking improves retrieval accuracy.
+
+#### Step 4 - Embedding Generation
+Each chunk is converted into a vector embedding. Embedding models transform text into numerical vectors.
+E.g.: "Gradient Descent Optimization" [0.23, -0.81, 0.44, ...]
+These vectors represent semantic meaning.
+
+#### Step 5 - Vector Database Storage
+All embeddings are stored inside a vector database.The vector database stores:
+- Embeddings
+- Original text chunks
+- Metadata

@@ -3,6 +3,30 @@ CourseMate AI is an AI-powered study assistant designed to help students interac
 CourseMate AI aims to solve this problem by allowing students to chat with their study materials. Instead of manually searching through pages of content, students can simply ask questions and receive accurate answers extracted directly from their documents.
 By leveraging Retrieval-Augmented Generation (RAG), CourseMate AI combines document retrieval with large language models to provide context-aware explanations, summaries, and answers from the student's own study resources.
 
+# 🛠️ Setup & Installation
+
+### 1. Clone the repository
+Clone or download this repository to your local machine
+
+### 2. Install dependencies
+Install all the libraries mentioned in the requirements.txt file.
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configure environment variables
+Create a `.env` file in the root folder:
+```
+GROQ_API_KEY=your_groq_api_key_here
+```
+> Get your free API key at https://console.groq.com
+
+### 4. Run the backend
+```bash
+python app.py
+```
+Server starts at `http://localhost:8501`
+
 # Development Plan
 #### Step 1 - User uploads study material
 Students upload learning resources such as:

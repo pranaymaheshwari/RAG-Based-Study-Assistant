@@ -7,3 +7,8 @@ By leveraging Retrieval-Augmented Generation (RAG), CourseMate AI combines docum
 Now to develop this kind of system we are going to follow some steps.
 
 #### Step 1: User uploads study material
+Students upload learning resources such as:
+- PDFs
+- Lecture notes
+- Textbooks
+- Research papers

@@ -15,7 +15,7 @@ Students upload learning resources such as:
 
 #### Step 2 - Document Loading
 The system loads documents using document loaders.
-Goal: Convert raw files into document objects that can be processed.
+The goal is to convert raw files into document objects that can be processed.
 You may clean the document as well.
 
 #### Step 3 - Text Splitting (Chunking)
@@ -24,7 +24,7 @@ Chunking improves retrieval accuracy.
 
 #### Step 4 - Embedding Generation
 Each chunk is converted into a vector embedding. Embedding models transform text into numerical vectors.
-E.g.: "Gradient Descent Optimization" [0.23, -0.81, 0.44, ...]
+E.g.: "Gradient Descent Optimization" -> [0.23, -0.81, 0.44, ...]
 These vectors represent semantic meaning.
 
 #### Step 5 - Vector Database Storage
@@ -32,3 +32,21 @@ All embeddings are stored inside a vector database.The vector database stores:
 - Embeddings
 - Original text chunks
 - Metadata
+
+#### Step 6 - User Asks a Question
+Now the student interacts with the system.
+
+#### Step 7 - Query Embedding
+The question is also converted into an embedding.
+
+#### Step 8 - Similarity Search
+The vector database performs semantic similarity search.
+We need to find chunks that are most relevant to the question.
+
+#### Step 9 - Retriever Component
+The retriever selects the top-k relevant chunks.
+These chunks form the context.
+
+#### Step 10 - LLM answers
+Based on the context the LLM answers.
+

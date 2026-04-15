@@ -78,4 +78,5 @@ Based on the context the LLM answers.
 
 # Demo
 Here is a demo video showing the working of the study assistant.
+
 https://github.com/user-attachments/assets/156d8fea-71d2-43fc-a443-21877677d622

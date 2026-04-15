@@ -4,8 +4,6 @@ CourseMate AI aims to solve this problem by allowing students to chat with their
 By leveraging Retrieval-Augmented Generation (RAG), CourseMate AI combines document retrieval with large language models to provide context-aware explanations, summaries, and answers from the student's own study resources.
 
 # Development Plan
-Now to develop this kind of system we are going to follow some steps.
-
 #### Step 1 - User uploads study material
 Students upload learning resources such as:
 - PDFs

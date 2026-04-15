@@ -49,4 +49,4 @@ These chunks form the context.
 Based on the context the LLM answers.
 
 # Architecture
-https://github.com/pranaymaheshwari/RAG-Based-Study-Assistant/issues/1#issue-4266058698
+
